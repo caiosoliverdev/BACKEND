@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "rlsxeqmIwi7sAU5xgaOSFXD2nCOvgmAm",
+    "database": "projeto_2g0d",
+    "host": "dpg-cmcpu5ed3nmc73de13tg-a.oregon-postgres.render.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": "rlsxeqmIwi7sAU5xgaOSFXD2nCOvgmAm",
+    "database": "projeto_2g0d",
+    "host": "dpg-cmcpu5ed3nmc73de13tg-a.oregon-postgres.render.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "rlsxeqmIwi7sAU5xgaOSFXD2nCOvgmAm",
+    "database": "projeto_2g0d",
+    "host": "dpg-cmcpu5ed3nmc73de13tg-a.oregon-postgres.render.com",
+    "dialect": "postgres"
+  }
+}

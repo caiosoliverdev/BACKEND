@@ -31,7 +31,7 @@ const LoginController = require('../controllers/loginController/loginController'
 //#endregion
 
 //#region Establishments 
-routes.get('/establishments', verifyJWT, EstablishmentsController.Get);
+routes.get('/establishments', EstablishmentsController.Get);
 
 routes.get('/establishments/:id', verifyJWT, EstablishmentsController.GetId);
 
