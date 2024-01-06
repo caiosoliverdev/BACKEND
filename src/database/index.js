@@ -15,6 +15,12 @@ require('dotenv').config();
 
 const DbConnect = new Sequelize('postgres://root:rlsxeqmIwi7sAU5xgaOSFXD2nCOvgmAm@dpg-cmcpu5ed3nmc73de13tg-a.oregon-postgres.render.com/projeto_2g0d', {
   dialect: process.env.DB_DIALECT,
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false, // Desative isso em ambientes de produção apenas se você confiar no certificado do servidor.
+    },
+  },
 });
 
 // const DbConnect = new Sequelize(
